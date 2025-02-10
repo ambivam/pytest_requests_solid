@@ -19,4 +19,4 @@ var/
 .venv/
 
 #environment files
-.env
+#.env
