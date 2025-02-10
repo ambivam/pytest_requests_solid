@@ -17,3 +17,6 @@ parts/
 sdist/
 var/
 .venv/
+
+#environment files
+.env

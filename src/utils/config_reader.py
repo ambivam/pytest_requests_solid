@@ -1,10 +1,12 @@
-import json
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 class ConfigReader:
-    """Reads configuration from JSON files"""
-    
+    """Utility to fetch environment variables"""
+
     @staticmethod
-    def get(key):
-        with open("config/config.json", "r") as file:
-            config = json.load(file)
-        return config.get(key)
+    def get(key, default=None):
+        return os.getenv(key, default)

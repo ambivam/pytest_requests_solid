@@ -6,3 +6,7 @@
 2025-02-10 10:25:58 - INFO - GET Request to https://reqres.in/api/users/2 - Status Code: 200
 2025-02-10 10:25:58 - INFO - PUT Request to https://reqres.in/api/users/2 - Status Code: 200
 2025-02-10 10:25:59 - INFO - DELETE Request to https://reqres.in/api/users/2 - Status Code: 204
+2025-02-10 11:05:55 - INFO - POST Request to https://reqres.in/api/users - Status Code: 201
+2025-02-10 11:05:55 - INFO - GET Request to https://reqres.in/api/users/2 - Status Code: 200
+2025-02-10 11:05:55 - INFO - PUT Request to https://reqres.in/api/users/2 - Status Code: 200
+2025-02-10 11:05:55 - INFO - DELETE Request to https://reqres.in/api/users/2 - Status Code: 204

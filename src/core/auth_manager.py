@@ -17,10 +17,10 @@ class AuthManager:
         """Fetch token if not already available"""
         logger = Logger.get_logger()
         if self.token is None:
-            auth_url = ConfigReader.get("auth_url")
+            auth_url = ConfigReader.get("AUTH_URL")
             payload = {
-                "email": ConfigReader.get("username"),
-                "password": ConfigReader.get("password")
+                "email": ConfigReader.get("USERNAME"),
+                "password": ConfigReader.get("PASSWORD")
             }
             response = requests.post(auth_url, json=payload)
 
