@@ -1,0 +1,9 @@
+{
+    "base_url": "https://reqres.in/api",
+    "auth_url": "https://reqres.in/api/login",
+    "username": "eve.holt@reqres.in",
+    "password": "cityslicka",
+    "timeout": 10,
+    "log_level": "INFO"
+  }
+  
